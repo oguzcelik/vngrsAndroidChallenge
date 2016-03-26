@@ -22,7 +22,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         SearchTimeline searchTimeline = new SearchTimeline.Builder()
-                .query("#istanbul")
+                .query("#android")
                 .build();
 
         CustomTweetTimelineListAdapter adapter = new CustomTweetTimelineListAdapter(this, searchTimeline);
